@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700');
+
+body {
+  background: linear-gradient(to bottom, #8FD8D8,#E3FFE3, #fff4e4, #fff);
+  /*height: 100%;*/
+}
+
+#home,
+#about,
+#projects {
+  height: 100vh;
+}
+
+.title-wrap {
+  align-items: center;
+  display: flex;
+  height: 80%;
+  justify-content: center;
+}
+
+.home-title {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 100px;
+  font-weight: 300;
+}
+
+.about-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 60px 250px 40px 250px;
+}
+
+.about-picture {
+  margin: 30px;
+}
+
+img {
+  width: 300px;
+}
+
+.about-content p {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 28px;
+  font-weight: 300;
+}
+
+span {
+  background-color: #fee5b5;
+  font-weight: 400;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.resume-wrapper {
+  text-align: center;
+}
+
+.resume {
+  border: none;
+  font-family: 'Work Sans', sans-serif;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 20px;
+  background: #85c2f4;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.resume:hover {
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+.projects-title {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 50px;
+  font-weight: 300;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.projects-subtitle {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 80px;
+  padding-bottom: 30px;
+}
+
+.project-image {
+  height: auto;
+  margin: 0 10px 10px 0;
+  width: 400px;
+
+}
+
+.question-wrapper {
+  align-items: center;
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  width: 410px;
+}
+
+.question-mark {
+  vertical-align: center;
+  width: 100px !important;
+}
+
+#icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 45px;
+}
+
+.fa {
+  margin: 0 10px;
+}
+
+@media screen and (min-width: 320px) {
+  .about-content p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .about-content p {
+    font-size: 25px;
+  }
+}
