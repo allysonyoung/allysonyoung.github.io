@@ -14,8 +14,8 @@ body {
 .title-wrap {
   align-items: center;
   display: flex;
-  height: 80%;
   justify-content: center;
+  margin: 10% auto 0 auto;
 }
 
 .home-title {
@@ -24,10 +24,20 @@ body {
   font-weight: 300;
 }
 
+.arrow {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.arrow-image {
+  width: 80px !important;
+}
+
 .about-container {
   display: flex;
   justify-content: space-around;
-  margin: 60px 250px 40px 250px;
+  margin: 0 250px 40px 250px;
 }
 
 .about-picture {
@@ -44,7 +54,7 @@ img {
   font-weight: 300;
 }
 
-span {
+.highlight {
   background-color: #fee5b5;
   font-weight: 400;
 }
@@ -74,11 +84,12 @@ a {
   text-decoration: none;
 }
 
+.about-title,
 .projects-title {
   font-family: 'Work Sans', sans-serif;
   font-size: 50px;
   font-weight: 300;
-  margin-bottom: 0;
+  margin: 0 auto;
   text-align: center;
 }
 
