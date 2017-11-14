@@ -2,6 +2,6 @@
 personal website
 
 TODO: 
-[] mobile/tablet responsive
-[] project descriptions on hover
-[] add resume
+- [ ] mobile/tablet responsive
+- [ ] project descriptions on hover
+- [ ] add resume
