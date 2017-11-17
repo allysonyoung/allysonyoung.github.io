@@ -1,5 +1,6 @@
 <html>
   <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Allyson Young</title>
     <link rel="stylesheet" type="text/css" href="./css/main.css">
     <script src="https://use.fontawesome.com/17aa22c8fb.js"></script>
@@ -7,14 +8,14 @@
   <body>
     <section id="home">
       <div class="title-wrap">
-        <h1 class="home-title"><span class="hi">Hi!</span> <span class="intro">I'm Allyson.</span></h1>
+        <h1 class="home-title"><span class="first">Allyson</span> <span class="last">Young</span></h1>
       </div>
       <div class="arrow">
         <a class="anchor" href="#about"><img src="./images/arrow.jpg" class="arrow-image"></a>
       </div>
     </section>
     <section id="about">
-      <h3 class="about-title">About</h3>
+      <h3 class="about-title">ABOUT</h3>
       <div class="about-container">
         <div class="about-picture">
           <img src="/images/me.jpg">
@@ -26,53 +27,73 @@
         </div>
       </div>
       <div class="resume-wrapper">
-        <button class="resume">Resume</button>
+        <button class="resume">RESUME</button>
       </div>
     </section>
     <section id="projects">
-      <h3 class="projects-title">Projects</h3>
-      <!-- <p class="projects-subtitle">School, Work & Personal</p>
+      <h3 class="projects-title">PROJECTS</h3>
       <div class="grid">
-        <div class="grid-project">
-          <a href="https://microblog.breakfastburritos.party" target="_blank">
-            <img src="./images/p1.jpg" class="project-image">
+        <div class="grid-circle">
+          <a href="#grid-work" class="work-expand">
+            <h4 class="grid-label">WORK</h4>
           </a>
         </div>
-        <div class="grid-project">
-          <a href="http://www.vulture.com/2017/02/100-more-jokes-shaped-modern-comedy-c-v-r.html" target="_blank">
-            <img src="./images/p2.jpg" class="project-image">
+        <div class="grid-circle">
+          <a href="#grid-school" class="school-expand">
+            <h4 class="grid-label">SCHOOL</h4>
           </a>
         </div>
-        <div class="grid-project">
-          <a href="http://tacolocator.herokuapp.com/" target="_blank">
-            <img src="./images/p5.jpg" class="project-image">
+        <div class="grid-circle">
+          <a href="#grid-personal" class="personal-expand">
+            <h4 class="grid-label-personal">WHAT I'VE BEEN UP TO RECENTLY</h4>
           </a>
         </div>
-        <div class="grid-project">
-          <a href="http://nymag.com/scienceofus/2017/01/what-makes-your-life-meaningful.html" target="_blank">
-            <img src="./images/p4.jpg" class="project-image">
-          </a>
+        <div class="grid-work" id="grid-work">
+          <i class="fa fa-times fa-3x" aria-hidden="true"></i>
+          <!-- <div class="grid-project">
+            <a href="http://www.vulture.com/2017/02/100-more-jokes-shaped-modern-comedy-c-v-r.html" target="_blank">
+              <img src="./images/p2.jpg" class="project-image">
+            </a>
+          </div>
+          <div class="grid-project">
+            <a href="http://nymag.com/scienceofus/2017/01/what-makes-your-life-meaningful.html" target="_blank">
+              <img src="./images/p4.jpg" class="project-image">
+            </a>
+          </div>
+          <div class="grid-project">
+            <a href="http://www.vulture.com/2017/02/girls-character-who-said-it-take-our-quote-quiz.html" target="_blank">
+              <img src="./images/p3.jpg" class="project-image">
+            </a>
+          </div> -->
         </div>
-        <div class="grid-project">
-          <a href="http://www.vulture.com/2017/02/girls-character-who-said-it-take-our-quote-quiz.html" target="_blank">
-            <img src="./images/p3.jpg" class="project-image">
-          </a>
+
+        <div class="grid-school" id="grid-school">
+          <i class="fa fa-times fa-3x" aria-hidden="true"></i>
+          <!-- <div class="grid-project">
+            <a href="http://tacolocator.herokuapp.com/" target="_blank">
+              <img src="./images/p5.jpg" class="project-image">
+            </a>
+          </div>
+          <div class="grid-project">
+            <a href="https://microblog.breakfastburritos.party" target="_blank">
+              <img src="./images/p1.jpg" class="project-image">
+            </a>
+          </div> -->
         </div>
-        <div class="grid-project">
-          <a href="https://github.com/allysonyoung" target="_blank">
-            <div class="question-wrapper"><img src="./images/question-mark.jpg" class="question-mark"></div>
-          </a>
+
+        <div class="grid-personal" id="grid-personal">
+          <i class="fa fa-times fa-3x" aria-hidden="true"></i>
         </div>
-      </div> -->
+      </div>
     </section>
-    <footer id="contact">
+    <section id="contact">
       <div id="icons">
         <i class="fa fa-envelope-o fa-3x"></i>
-        <a href="https://linkedin.com/in/youngallyson"><i class="fa fa-linkedin-square fa-3x"></i></a>
-        <a href="https://github.com/allysonyoung"><i class="fa fa-github fa-3x"></i></a>
-        <a href="https://instagram.com/alllyson_"><i class="fa fa-instagram fa-3x"></i></a>
+        <a href="https://linkedin.com/in/youngallyson" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a>
+        <a href="https://github.com/allysonyoung" target="_blank"><i class="fa fa-github fa-3x"></i></a>
+        <a href="https://instagram.com/alllyson_" target="_blank"><i class="fa fa-instagram fa-3x"></i></a>
       </div>
-    </fppter>
+    </section>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
     <script src="./js/index.js"></script>
