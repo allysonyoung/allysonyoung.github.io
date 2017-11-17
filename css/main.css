@@ -61,7 +61,7 @@ body {
   margin: 30px;
 }
 
-img {
+img.about-img {
   width: 300px;
 }
 
@@ -141,6 +141,7 @@ a {
   display: none;
   height: 600px;
   margin: 40px auto 0 auto;
+  position: relative;
   width: 100%;
 }
 
@@ -148,6 +149,11 @@ a {
 .grid-school.expand,
 .grid-personal.expand {
   display: block;
+}
+
+img.project-image {
+  margin: 40px;
+  width: 350px;
 }
 
 #contact {
@@ -167,10 +173,9 @@ a {
 .fa-times {
   color: grey;
   cursor: pointer;
-  /*TODO: QUICK FIX FOR NOW BUT PLS REMOVE FLOAT!!!!*/
-  float: right;
   margin: 10px 15px 0 0;
-
+  right: 0;
+  position: absolute;
 }
 
 @media screen and (min-width: 1356px) and (max-width: 1425px) {
@@ -223,7 +228,7 @@ a {
     margin: 30px auto 0;
   }
 
-  img {
+  img.about-img {
     margin-top: -35px;
     margin-bottom: -100px;
   }
@@ -285,7 +290,7 @@ a {
     font-size: 15px;
   }
 
-  img {
+  img.about-img {
     margin-bottom: -50px;
     margin-top: -20px;
     width: 175px;
@@ -309,5 +314,4 @@ a {
   .grid-label-personal {
     font-size: 28px;
   }
-
 }
