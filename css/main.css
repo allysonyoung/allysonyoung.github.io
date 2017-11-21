@@ -140,10 +140,21 @@ a {
 .grid-personal {
   border: solid 2px #d6d6d6;
   display: none;
-  height: 600px;
   margin: 40px auto 0 auto;
   position: relative;
   width: 100%;
+}
+
+.grid-work {
+  height: 750px;
+}
+
+.grid-school {
+  height: 640px;
+}
+
+.grid-personal {
+  height: 300px;
 }
 
 .grid-work.expand,
@@ -153,8 +164,32 @@ a {
 }
 
 img.project-image {
-  margin: 40px;
+  margin: 45px 40px -28px;
   width: 350px;
+}
+
+.grid-project {
+  display: flex;
+}
+
+.grid-proj-desc {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 15px;
+  margin: 7% 5% 0 0;
+}
+
+.grid-personal-intro {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 22px;
+  margin: 60px 80px 0;
+  text-decoration: underline;
+}
+
+.personal-list {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 17px;
+  list-style-type: none;
+  margin: 25px 80px;
 }
 
 #contact {
