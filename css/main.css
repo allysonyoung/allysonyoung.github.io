@@ -124,7 +124,7 @@ a {
   height: 300px;
   justify-content: center;
   text-align: center;
-  width: 300px;
+  width: 48%;
 }
 
 .grid-label,
@@ -222,7 +222,6 @@ img.project-image {
 
   .grid-circle {
     height: 285px;
-    width: 285px;
   }
 }
 
@@ -245,7 +244,6 @@ img.project-image {
 
   .grid-circle {
     height: 270px;
-    width: 270px;
   }
 }
 
@@ -284,7 +282,6 @@ img.project-image {
 
   .grid-circle {
     height: 180px;
-    width: 180px;
   }
 
   .grid-label {
