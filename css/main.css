@@ -5,7 +5,6 @@ html {
 }
 
 body {
-  background: linear-gradient(to bottom, #bae6e5,#E3FFE3, #fff4e4, #fff);
   min-height: 100%;
   position: relative;
 }
